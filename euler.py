@@ -52,4 +52,4 @@ if __name__ == "__main__":
             arr.append(result)
             source = str(n)
             target = str(arr[n])
-            f.write(str.join(" ", list(source)) + "\t" + str.join(" ", list(target)) + "\n")
+            f.write(source + "\t" + target + "\n")
